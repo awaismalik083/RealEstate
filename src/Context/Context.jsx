@@ -1,6 +1,6 @@
 // /src/Context/Context.jsx
 import React, { createContext, useContext, useState } from 'react';
-import { list_places,card, card2, Logos,Sellers,blog } from '../assets/asset';
+import { list_places,card, card2, Logos,Sellers,blog,blog_Cards } from '../assets/asset';
 
 // Create the context
 const AppContext = createContext();
@@ -19,7 +19,8 @@ export const AppProvider = ({ children }) => {
       card2,
       Logos,
       Sellers,
-      blog
+      blog,
+      blog_Cards,
       // ✅ available globally
     }}>
       {children}

@@ -36,7 +36,6 @@ import seller3 from "../assets/seller3.png";
 import seller4 from "../assets/seller4.png";
 import seller5 from "../assets/seller5.png";
 import mail from "../assets/mail.png";
-import phone from "../assets/phone.png";
 import blg1 from "../assets/blg1.png";
 import blg2 from "../assets/blg2.png";
 import blg3 from "../assets/blg3.png";
@@ -47,16 +46,29 @@ import insta from '../assets/insta.png'
 import fb from '../assets/fb.png'
 import twt from '../assets/twt.png'
 import link from '../assets/link.png'
-
+import plant from '../assets/plant.png'
+import apple from '../assets/apple.svg'
+import eyeopen from '../assets/eyeopen.svg'
+import eyeclose from '../assets/eyeclose.svg'
+import cnic from '../assets/cnic.jpg'
+import chair from '../assets/chair.jpg'
+import metro2 from '../assets/metro2.jpg'
+import metro1 from '../assets/metro1.jpg'
+import mobile from '../assets/mobile.jpg'
+import phone1 from '../assets/phone1.jpg'
+import speedo from '../assets/speedo.jpg'
 
 
 // All assets grouped here
 export const asset = {
   logo,
+  apple,
+  plant,
   logo7,
   mail,
   folder,
-  phone,
+  eyeclose,
+  eyeopen,
   home,
   user,
   bg,
@@ -75,7 +87,13 @@ export const asset = {
   fb,
   link,
   insta,
-  twt
+  twt,
+  phone1,
+  chair,
+  metro1,
+  metro2,
+  cnic,
+  mobile
 };
 
 // Logos used for "Trusted by companies" section
@@ -224,3 +242,53 @@ export const Sellers = [
     description: "Reataler",
   },
 ];
+
+
+
+
+export const blog_Cards = [
+  {
+    id:"1",
+    Image:metro2,
+    Title :"Green Lne Bus Karachi:Route,Stations,Timings,Ticket Price and More",
+    Description:"The Green Line Bus Rapid Transit (BRT) project is a state-of-the-art mass transit system in Karachi designed to upgrade the...",
+    Date:"4 May 2025",
+  },
+  {
+    id:"2",
+    Image:phone1,
+    Title :"How to Quickly Check CNIC Number with Your Mobile Number in Pakistan",
+    Description:"Are you in a situation where you need to check your or someone else's CNIC number but can't find the...",
+    Date:"6 Jaunuary 2025",
+  },
+  {
+    id:"3",
+    Image:metro1,
+    Title :"Metro Bus Islamabad:Route,Stations,Timings,Ticket Price and More",
+    Description:"The Islamabad-Rawalpindi Metro Bus is a modern transportation system connecting Islamabad and Rawalpindi's twin cities. The project was initiated in...",
+    Date:"8 September 2024",
+  },
+
+ {
+    id:"4",
+    Image:chair,
+    Title :"Top 10 Marble Flooring For Pakistani Homes,Tyes, Prices and Features",
+    Description:"Marble flooring is a popular choice for homes in Pakistan due to its elegance and durability. In this article, we will explore the top 10 marble  in...",
+    Date:"7 October 2024",
+  },
+  {
+    id:"5",
+    Image:mobile,
+    Title :"NADRA ID Card Tracking Made Easy: A Step-by-Step Guide",
+    Description:"Getting your NADRA ID Card, also known as the Computerized National Identity Card (CNIC), is an important task for every...",
+    Date:"4 march 2024",
+  },
+  {
+    id:"6",
+    Image:speedo,
+    Title :"Speedo Bus Routes in Lahore (Updated 2023)",
+    Description:"Lahore, the cultural capital of Pakistan, is known for its rich history, vibrant culture, and bustling streets. However, with the...",
+    Date:"8 September 2024",
+  }
+
+]

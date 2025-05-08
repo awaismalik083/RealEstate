@@ -7,6 +7,8 @@ import Property from './pages/Property'
 import Page from './pages/Page'
 import Blog from './pages/Blog'
 import Contact from './pages/Contact'
+import Login from './Components/Login'
+import Signup from './Components/Signup'
 const App = () => {
   return (
     <>
@@ -18,6 +20,9 @@ const App = () => {
           <Route  path='/page' element={<Page/>}/>
           <Route  path='/blog' element={<Blog/>}/>
           <Route  path='/contact' element={<Contact/>}/>
+          <Route  path='/login' element={<Login/>}/>
+          <Route  path='/signup' element={<Signup/>}/>
+
         </Routes>
       </BrowserRouter>
     </>
